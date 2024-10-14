@@ -92,12 +92,12 @@ classDiagram
     MainActivity --> BiometricCTR : "usa"
     BiometricCTR --> BiometricPrompt : "crea y maneja"
     BiometricCTR --> BiometricManager : "verifica hardware biométrico"
-    BiometricCTR --> BiometricPrompt.PromptInfo : "configura"
-    BiometricCTR --> BiometricPrompt.AuthenticationCallback : "maneja resultados"
+    BiometricCTR --> BiometricPromptPromptInfo : "configura"
+    BiometricCTR --> BiometricPromptAuthenticationCallback : "maneja resultados"
     BiometricCTR --> BiometricAuthListener : "notifica eventos"
 ```
 > [!IMPORTANT] 
-## Implementación
+> ## Implementación
 
 ### 1. **Agregar Dependencias**
 
@@ -112,4 +112,4 @@ dependencies {
 
 ## Autor
 
-- [Sento Marcos] (https://github.com/SentoMarcos)
+- [Sento Marcos](https://github.com/SentoMarcos "SentoMarcos")
