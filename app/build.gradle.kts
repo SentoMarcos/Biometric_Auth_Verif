@@ -40,8 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
-    //Librerias para el uso de la autenticación biométrica
     implementation("androidx.biometric:biometric:1.2.0")
     implementation("androidx.biometric:biometric-ktx:1.4.0-alpha02")
 }
